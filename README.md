@@ -19,21 +19,25 @@ Use the **bower** to install wgbn-angular-http-sync in your application or downl
     bower install --save wgbn-angular-http-sync
 
 So make reference to scripts in your index.html:
+
 [Então faça referência aos scripts em seu index.html]:
 
     <script src="bower_components/jquery/jquery.min.js"></script>
     <script src="bower_components/wgbn-http-sync/dist/wgbnHttpSync.js"></script>
 **Note:** Call the first jQuery
+
 **[Nota:** Chame o jQuery primeiro]
 
 ## Installation on AnglularJS [Instalação no AngularJS]
 
 In your app, import the wgbnHttpSync for your scope:
+
 [Em seu app, importe o wgbnHttpSync para seu scopo]:
 
     var app = angular.module('myApp' ['wgbnHttpSync']);
 
 and in your controller just use:
+
 [e em seu controller basta usar]:
 
     app.controller ('MyController', function (httpSync) {
